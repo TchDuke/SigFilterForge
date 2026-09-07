@@ -1,0 +1,15 @@
+# Полосовой БИХ: эллиптическая аппроксимация — самый крутой спад при том же
+# порядке, ценой пульсаций в ОБЕИХ полосах и неровного ГВЗ.
+[Filter]
+format=sff-1
+kind=iir
+shape=bandpass
+approx=elliptic
+fd=48000
+fstop1=800
+fpass1=1000
+fpass2=3000
+fstop2=3600
+ap_db=0.5
+as_db=60
+order=0

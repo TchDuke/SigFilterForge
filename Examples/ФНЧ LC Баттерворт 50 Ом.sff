@@ -1,0 +1,13 @@
+# Пассивная LC-лестница на 50 Ом: номиналы катушек и конденсаторов,
+# вкладка «Схема» рисует её чертежом с подписями.
+[Filter]
+format=sff-1
+kind=lc
+shape=lowpass
+approx=butterworth
+f1=10000
+ap_db=1
+order=5
+r_source=50
+first_shunt=1
+lc_topology=ladder
